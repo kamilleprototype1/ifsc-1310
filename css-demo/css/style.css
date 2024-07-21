@@ -1,0 +1,20 @@
+/* ------ CSS Demo ------ */
+
+/* ---------------------------- Box Sizing ---------------------------- */
+
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+box-sizing: inherit;
+}
+
+body{
+    font-family: "Playwrite HR Lijeva", cursive 
+}
+
+header.primary{
+background-color:red;
+}
