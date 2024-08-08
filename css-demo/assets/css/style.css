@@ -27,7 +27,27 @@ max-width:100%;
     margin: 40px auto;
 }
 
+img-right{
+    float:right;
+    margin: 10px 0 10px 20px;
+    border: 1.8px solid indigo;
+    padding: 6px; 
+    border-radius: 55px;
+    background-color: purple;
+}
 
+img-left{
+    float:left;
+    margin: 10px 20px 10px 0;
+    border: 1.8px solid indigo;
+    padding: 6px; 
+    border-radius: 55px;
+    background-color: purple;
+}
+
+img-center{
+    
+}
 
 /* --------------------------- Global Styles --------------------------- */
 
@@ -111,17 +131,21 @@ content{
     flex-direction:row;
     justify-content:space-around;
     gap:3rem;
+    border-bottom: 2px dotted red;
+    padding: 3rem 0;
+    border-top: 2px dotted orange;
+    padding-top: 3rem; 
 }
 
 #blog .post{
-    box-shadow: 0 9px 17px rgba(255, 0, 0);
+    box-shadow: 0 9px 17px rgba(240, 255, 0);
     padding:12px;
     border-radius:7px;
     font-size:.7rem;
 }
 
 #blog figure{
-    background:#FFA500;
+    background:green;
     margin:0;
 }
 
@@ -129,7 +153,7 @@ content{
     text-transform:uppercase;
     font-size:.8rem;
     text-align:center;
-    color:green;
+    color:blue;
 }
 
 #blog header{
@@ -142,12 +166,53 @@ content{
 }
 
 #blog h2 a{
-    color:blue;
+    color:indigo;
 }
 
-#blog .post{
-    box-shadow: 0 9px 17px rgba(0,128,0);
+#blog .post:hover{
+    box-shadow: 0 9px 17px rgba(128, 0, 128);
 
+}
+
+#practice h2{
+    color: red;
+    border-bottom: 1.7px solid orange;
+}
+
+aside[role="complementary"]{
+    background-color: yellow;
+    color: green;
+    padding:2rem;
+}
+
+aside .container{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    gap:45px;
+}
+
+aside .container a{
+    color: blue;
+}
+
+aside .container a:last-of-type{
+    display:block; 
+    color: indigo;
+    text-align:right; 
+    margin-top: 1rem;
+}
+
+aside .widget footer{
+    display:none;
+}
+
+colophon{
+    background-color: purple;
+    text-align: center;
+    padding: 12px;
+    color: red;
+    font-size: 1.3rem;
 }
 
 
